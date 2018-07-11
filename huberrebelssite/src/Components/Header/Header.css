@@ -1,0 +1,11 @@
+.Header {
+  height: 200px;
+  outline: 1px dotted blue;
+  background: red;
+  position: relative;
+}
+img {
+  width: 200px;
+  height:auto;
+  float: left;
+}

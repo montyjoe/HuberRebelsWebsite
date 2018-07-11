@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+      Here is all the info for bootstrap i linked externally should download
+
+
+
+     ====== get info for docs here ======
+     https://getbootstrap.com/docs/3.3/css/
+     =====================================
+    -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="src/css/m.index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#9f7fff">
+    <meta name="msapplication-TileColor" content="#2e2e2e">
+    <meta name="theme-color" content="#ffffff">
+    <script src="scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="src/js/index.js" type="text/javascript"></script>
+    <title>Previews</title>
+  </head>
+  <body onresize="resizeFunction()" onload="resizeFunction()">
+    <script type="text/javascript">
+      function resizeFunction() {
+        if (window.innerWidth > 1195) {
+          window.location = "previews.html";
+        }
+      };
+    </script>
+    <div class="header">
+        <div class="logo-box">
+            <a href="m.index.html"><img src="src/img/hrLogo.png" alt="" class="logo-header"></a>
+        </div>
+        <div class="nav-bar">
+            <a href="m.index.html" class="nav-button nav--first">
+               <h3>All</h3>
+            </a>
+            <a href="m.news.html" class="nav-button">
+               <h3>News</h3>
+            </a>
+            <a href="m.YouTube.html" class="nav-button">
+               <h3>YouTube</h3>
+            </a>
+            <a href="m.features.html" class="nav-button">
+               <h3>Features</h3>
+            </a>
+            <a href="m.previews.html" class="nav-button current-tab">
+               <h3>Previews</h3>
+            </a>
+            <a href="m.reviews.html" class="nav-button nav--last">
+               <h3>Reviews</h3>
+            </a>
+        </div>
+        <!-- <div class="dropdown">
+          <button class="top-button">Previews</button>
+          <div class="bottom-buttons">
+            <a href="m.index.html" class="dropdown-button">
+               All Articles
+            </a>
+            <a href="m.news.html" class="dropdown-button">
+               News
+            </a>
+            <a href="m.YouTube.html" class="dropdown-button">
+               YouTube
+            </a>
+            <a href="m.features.html" class="dropdown-button">
+               Features
+            </a>
+            <a href="m.reviews.html" class="dropdown-button">
+               Reviews
+            </a>
+          </div>
+        </div> -->
+
+      <!-- <div class="social-bar">
+      </div> -->
+    </div>
+    <div class="body">
+      <div class="articles">
+          <h1 class="coming-soon-text" class="coming-soon-text">MORE ARTICLES COMING SOON...</h1>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-img-container">
+        <a href="#top"><img src="src/img/hrLogoWide.png" alt="" class="footer-img"></a>
+      </div>
+      <div class="footer-info">
+        <h3 class="make-me-transparent"><a href="mailto:huberrebels@gmail.com" class="footer-text">huberrebels@gmail.com</a> | <a class="footer-text" href="tel:(702)527-1326">(702) 527-1326</a></h3>
+      </div>
+      <div class="social-box">
+        <div class="social-img-container">
+          <a href="https://twitter.com/HuberRebels" target="_blank">  <img src="src/img/websiteTwitter.png" alt="" class="social-img"></a>
+        </div>
+        <div class="social-img-container">
+          <a href="https://www.youtube.com/channel/UC1bS4MI5jvjCl9PGh_dOlMw" target="_blank">  <img src="src/img/websiteYoutube.png" alt="" class="social-img"></a>
+        </div>
+        <div class="social-img-container">
+          <a href="https://www.twitch.tv/huberrebels" target="_blank">  <img src="src/img/websiteTwitch.png" alt="" class="social-img"></a>
+        </div>
+        <div class="social-img-container">
+          <a href="#" target="_blank">  <img src="src/img/websiteReddit.png" alt="" class="social-img"></a>
+        </div>
+        <div class="social-img-container">
+          <a href="https://www.instagram.com/huberrebels/" target="_blank">  <img src="src/img/websiteInstagram.png" alt="" class="social-img"></a>
+        </div>
+        <div class="social-img-container">
+          <a href="https://www.facebook.com/HuberRebels/" target="_blank">  <img src="src/img/websiteFacebook.png" alt="" class="social-img"></a>
+        </div>
+        <div class="social-img-container">
+          <a href="https://www.patreon.com/huberrebels" target="_blank">  <img src="src/img/websitePatreon.png" alt="" class="social-img"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

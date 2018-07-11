@@ -1,0 +1,270 @@
+body {
+ box-sizing: border-box;
+ background-color: #2e2e2e;
+}
+
+* {
+  background-color: #2e2e2e;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: black
+  }
+
+h1,h2,h3,h4,h5,h6,p {
+  background-color: white;
+}
+
+
+a:visited, a:hover {
+  text-decoration: none ;
+  color: black
+}
+
+.article-link {
+  color: #713DF5;
+  text-decoration: underline!important;
+}
+
+.article-link a:visited {
+  color: #713DF5;
+  text-decoration: underline!important;
+}
+
+.header {
+  width:100%; min-width:1000px;
+  height:150px;
+  padding: 20px 0 0 0;
+
+  text-align: center;
+
+
+}
+
+.logo-box {
+  background-color: none;
+  width: auto; height: 90%;
+  position: relative;
+  display: inline-block;
+  /*border: 1px dotted yellow;*/
+}
+
+.logo-box img {
+  width: auto; height: 100%;
+  background-color: none;
+}
+
+
+
+.nav-bar {
+  width: 75%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 70px 0  0  20px;
+
+
+
+}
+
+.nav-button {
+
+  width: 15%; height: 40px;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+
+
+
+
+}
+.nav-button h3 {
+  font-size: 1.5em;
+  margin: 0;
+  background-color: white;
+  line-height: 40px;
+}
+
+.nav-button:hover h3 {
+  color: #713DF5;
+}
+
+.nav--first h3{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px
+}
+.nav--last h3 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px
+}
+
+
+
+.social-bar {
+  background: white;
+  width: 15%;
+  height: 25%;
+  position: relative;
+  left: 100%;
+  transform: translateX(-110%) translateY(-550%);
+
+}
+
+.body {
+
+  width:90%;
+  min-height:200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 25px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.coming-soon-text {
+  background: transparent;
+  color: white;
+}
+
+.about-us-box {
+  background: white;
+  width:90%;
+  min-height: 300px;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  transform: translateX(-50%);
+  position: relative;
+  padding: 1%;
+}
+
+.about-us-last {
+  margin-top: 2%;
+}
+
+.article-title {
+  display: block;
+}
+
+.article-title h1 {
+  font-size: 5em;
+}
+
+.article-publisher {
+  display: inline-block;
+  background-color: transparent;
+  position: relative;
+  bottom: 25px;
+}
+
+.publisher-name {
+  color: #713DF5;
+  background-color:transparent
+}
+
+.article-date {
+  position: relative;
+  bottom: 35px;
+}
+
+.article-content {
+  background-color: transparent;
+}
+
+.article-content p {
+  font-size: 1.2em;
+}
+
+.article-content a:visited {
+  color: #713DF5!important;}
+
+.article-content p img{
+  margin-right: 1%;
+  background-color: transparent;
+}
+
+.footer {
+  /* background: blue; */
+  width:100%;
+  height:200px;
+  border-radius: 15px;
+  /*border: 1px dotted yellow;*/
+}
+
+.footer-img-container {
+  width: 100%; height: 60%;
+  background: transparent;
+}
+
+.footer-img {
+  width:auto; height:100%;
+  position: relative;
+  background: transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50%;
+}
+
+.footer-info {
+  width: 100%; height: 40%;
+  color: white;
+  background: transparent!important;
+  position: relative;
+  bottom: 53%;
+  text-align: center;
+  /*transform: translateX(-50%);*/
+  /*border: 1px dotted white;*/
+}
+
+.make-me-transparent {
+  background: transparent!important;
+}
+
+.footer-text {
+  color: white!important;
+}
+
+.footer-text:hover {
+  color: #9F7FFF!important;
+}
+
+.social-box {
+  width: 50%; height: 40%;
+  position: relative;
+  left: 50%;
+  bottom: 75%;
+  margin-bottom: 30px;
+  transform: translateX(-50%);
+  text-align: center;
+  /*outline: 1px dotted white;*/
+}
+
+.social-img-container {
+  height: 100%; width: 15%;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  /*outline: 1px dotted yellow;*/
+}
+
+.social-img {
+  width: 70%; height: auto;
+  position: relative;
+  border-radius: 50%;
+  background: transparent;
+  vertical-align: middle;
+}
+
+.social-img:hover {
+  width: 75%; height: auto;
+  position: relative;
+  box-shadow: 0px 0px 20px #ffffff;
+  border-radius: 50%;
+  background: transparent;
+}

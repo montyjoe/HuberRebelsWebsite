@@ -1,0 +1,8 @@
+.NavBar {
+  width:800px;
+  height:75px;
+  outline:1px dotted white;
+  position: relative;
+  left:500px;
+  top:125px;
+}
